@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+   //to print subsets with all permutation in array by swap index value
 class Solution {
 public:
     void getperms(vector<int> &nums, int idx, vector<vector<int>> &ans) {
