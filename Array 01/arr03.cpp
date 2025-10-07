@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//  doubling value of  array.
+//  doubling value of  array
 void changeArr(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
