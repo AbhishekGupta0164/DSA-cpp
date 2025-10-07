@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// to Search any value in array
+// to Search any value in array.
 int linearSearch(int arr[], int size, int target)
 {
     for (int i = 0; i < size; i++)

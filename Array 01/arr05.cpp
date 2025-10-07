@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//reverse / swaping of array
+//reverse / swaping of array.
 
 void reverseArray(int arr[],int size){
     int start =0 ,end = size -1;

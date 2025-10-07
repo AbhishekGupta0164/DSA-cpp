@@ -2,7 +2,7 @@
 #include <climits>
 using namespace std;
 
-// find smallest / largest value in array
+// find smallest/largest value in array
 int main()
 {
     int nums[] = {5, 9, 6, 7, 1};
