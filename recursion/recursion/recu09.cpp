@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-//   to print all subsets of arr
+//  to print all subsets of arr
 void printSubsets(vector<int> &arr, vector<int> &ans, int i)
 {
     if (i == arr.size())
