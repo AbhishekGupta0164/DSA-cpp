@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Function to generate all subsets
+// Function to generate all subsets.
 void getallSubsets(vector<int> &nums, vector<int> &ans, int i, vector<vector<int>> &allSubsets)
 {
     if (i == nums.size())
