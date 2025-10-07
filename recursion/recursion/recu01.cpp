@@ -1,4 +1,4 @@
-// to print a sum of 10 natural no
+// to print a sum of 10 natural no.
 #include <iostream>
 using namespace std;
 int sum(int y)
