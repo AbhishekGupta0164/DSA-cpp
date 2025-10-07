@@ -2,7 +2,7 @@
 #include <climits>
 using namespace std;
 
-// find smallest value
+// find smallest / largest value in array
 int main()
 {
     int nums[] = {5, 9, 6, 7, 1};
@@ -16,7 +16,7 @@ int main()
         // {
         //     smallest = nums[i];
         // } 
-            // //** same working with single line code without if loop
+            // //* OR // same working with single line code without if loop
         smallest = min(nums[i],smallest);
         largest = max(nums[i],largest);
 
