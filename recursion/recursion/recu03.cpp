@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//   to print a number from n to 1 using recursion
+//   to print a number from n to 1  using recursion
 void pritNum(int n){
    if (n==1){
     cout<<" 1\n ";
