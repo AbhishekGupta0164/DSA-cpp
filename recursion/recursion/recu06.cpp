@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-//   fibonacci series sum of n nums 
+//   to find nth fibonacci number 
 int fibo(int n){
-    if(n==0 || n==1){
+    if(n==0 || n==1){ // base case
         return n;
 
     }
@@ -11,7 +11,10 @@ int fibo(int n){
 
 }
 int main(){
-    cout<<fibo(10)<<endl;
+    int n;
+    cout<<"enter N=  ";
+    cin>>n;
+    cout<<fibo(n)<<endl;
     return 0;
 
 }
