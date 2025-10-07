@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// to store variable in array.
+// to store variable in array
 int main()
 {
     int size = 5;
