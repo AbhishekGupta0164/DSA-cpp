@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-// check if array is shorted or not
+// check if array is shorted or not.
 bool isSorted(vector<int> arr, int n)
 {
     // base case
