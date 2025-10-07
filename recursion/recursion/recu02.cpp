@@ -1,4 +1,4 @@
-// factorial of a number.
+// factorial of a number using class 
 #include <iostream>
 using namespace std;
 
