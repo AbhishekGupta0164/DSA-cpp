@@ -1,7 +1,7 @@
 #include <iostream>
 #include<vector>
 using namespace std;
- // allocation in memory using vector 
+ // allocation of value in memory using  vector 
 int main(){
     vector<int >vec;
 
