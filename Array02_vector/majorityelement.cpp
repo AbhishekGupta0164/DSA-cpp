@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+ // to check majority element in an array
 int main(){
     int arr[] = {2,6,4,5,2,1};
     int len = sizeof(arr)/sizeof(arr[0]);
