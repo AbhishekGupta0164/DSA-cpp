@@ -20,4 +20,4 @@ int main() {
     Solution sol;
     cout << "The unique number is: " << sol.singleNumber(nums) << endl;
     return 0;
-}
+} 
