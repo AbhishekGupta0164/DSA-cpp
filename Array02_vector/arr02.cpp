@@ -3,7 +3,7 @@
 using namespace std;
 // leetcode problem 136
 // using vector
-// to print the num that is unique in array where every other element appears twice
+// to print the num that is unique in array where every other element appears  twice
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
