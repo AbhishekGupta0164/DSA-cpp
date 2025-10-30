@@ -11,7 +11,7 @@ int sum(int y)
 int main()
 {
     int y;
-    cout << "enter no";
+    cout << "enter no: ";
     cin >> y;
     cout << "the sum of first " << y << "integer = " << sum(y) << endl;
     return 0;
