@@ -4,7 +4,7 @@ using namespace std;
 int sum(int y)
 {
     if (y == 0)
-        return 0;
+        return 0;,
     else
         return (y + sum(y - 1));
 }
