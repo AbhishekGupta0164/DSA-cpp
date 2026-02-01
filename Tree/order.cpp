@@ -120,7 +120,7 @@ void Delete_BST(int x)
     BST *child;
     if (temp->left != NULL)
         child = temp->left;
-    else
+    else   
         child = temp->right;
 
     if (ttemp == NULL)
@@ -132,8 +132,10 @@ void Delete_BST(int x)
 
     delete temp;
 }
-// case 1 : both left and right child are present
-// if (left(temp) != NULL && right(temp) != NULL)
+
+//    //case 1 : both left and right child are present
+   
+// if (left(temp)!= NULL && right(temp) != NULL)
 // {
 //     temp->leftmostnode(I)
 //     s = right(temp);
@@ -164,7 +166,6 @@ void Delete_BST(int x)
 // }
 // //case 3 : left data, right null
 // // right=null,left !=null
-// elseif
 // {
 //     if (left(temp) != NULL && right(temp) == NULL)
 //     {
