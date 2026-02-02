@@ -210,7 +210,7 @@ void print2D(BST *root, int space)
     cout << endl;
     for (int i = 10; i < space; i++)
         cout << " ";
-    cout << root->data << "\n";
+    cout << root->data << " \n";
     print2D(root->left, space);
 }
 int main()
